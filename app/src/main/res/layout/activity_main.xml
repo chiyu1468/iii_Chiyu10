@@ -21,10 +21,46 @@
         android:text="Read..."
         android:onClick="test2"/>
 
+    <Button
+        android:id="@+id/inwButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="內存 Write..."
+        android:onClick="test3"/>
+
+    <Button
+        android:id="@+id/inrButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="內存 Read..."
+        android:onClick="test4"/>
+
+    <Button
+        android:id="@+id/ExWAButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EXSTORAGE sdroot write..."
+        android:onClick="test5"/>
+
+    <Button
+        android:id="@+id/ExWRButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EXSTORAGE approot write..."
+        android:onClick="test6"/>
+
+    <Button
+        android:id="@+id/ExRButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EXSTORAGE approot read..."
+        android:onClick="test7"/>
+
     <TextView
         android:id="@+id/myTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
 
 </LinearLayout>
